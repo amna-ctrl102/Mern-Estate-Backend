@@ -10,7 +10,7 @@ const app=express();
 
 app.use(cors({
   origin: [
-    'https://mern-estate-frontend-kappa.vercel.app', 
+    'https://mern-estate-frontend-lac.vercel.app', 
     'http://localhost:5173'
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
